@@ -1,0 +1,71 @@
+html,
+body,
+#root{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(218, 23%, 16%) ;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.container{
+    color: white;
+    background-color:  hsl(217, 19%, 24%) ;
+    width: 450px;
+    
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    margin: 100px;
+    border-radius: 15px;
+    box-shadow: solid;
+    
+}
+
+.title{
+    color: hsl(150, 100%, 66%);
+    margin-top: 40px;
+}
+.advice{
+    color: white;
+    margin: 40px;
+    margin-bottom: 70px;
+    font-size: large;
+
+
+
+
+}
+
+.random{
+    margin: 70px;
+    margin-bottom: -150px;
+    background-color:hsl(150, 100%, 66%) ;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border-color: black;
+    border: 4px solid black;
+    text-align: center;
+    cursor: pointer;
+    
+
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 100%;
+        margin: 25px;
+        box-shadow: none;
+    }
+}
+
+
+
+
+
+
+
